@@ -25,7 +25,7 @@ std::vector<std::string> tokenize(const std::string &s)
 {
   std::vector<std::string> tokens;
   std::string current;
-  bool in_single_quote = false, in_double_quote = false;
+  bool in_single_quote = false, in_double_quote= false;
   for (size_t i = 0; i < s.size(); ++i)
   {
     char c = s[i];
